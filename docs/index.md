@@ -6,8 +6,8 @@ Zen Tech KB is a knowledge base created by a team of students at GUVI. We unders
   - Documentation is a life saver.
   - Documentation is magic.
 
-### Topics
+####  Basics
+* [Linux Commands](/Basics/Linux-Commands)
+* [Git Basics](/Basics/git-basics)
 
-#### Basics
-* [Linux Commands](/Linux-Commands)
-* [Git Basics](/git-basics)
+#### [Important Links](/links)
