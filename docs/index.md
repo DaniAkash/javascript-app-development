@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# Zen Tech KB
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+Zen Tech KB is a knowledge base created by a team of students at GUVI. We understand that.
 
-## Commands
+  - Documentation is required.
+  - Documentation is a life saver.
+  - Documentation is magic.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+### Topics
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+#### Basics
+* [Linux Commands](/Linux-Commands)
+* [Git Basics](/git-basics)
