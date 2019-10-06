@@ -1,4 +1,6 @@
 site_name: Zen Tech KB
 
 nav:
-    - 'Introduction': 'index.md'
+    - Home: index.md
+    - Git Commands: git.md
+    - Linux Commands: command.md
