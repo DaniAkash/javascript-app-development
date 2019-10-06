@@ -15,3 +15,7 @@ For full documentation visit [mkdocs.org](https://mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## Git Commands
+
+- `git checkout branch_name` - switches between branches 
