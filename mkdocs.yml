@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: Command Line & Git
+nav:
+    - Home: index.md
+    - Git Commands: git.md
+    - Linux Commands: command.md
