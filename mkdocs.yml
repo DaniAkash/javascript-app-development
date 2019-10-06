@@ -1,4 +1,5 @@
-site_name: Command Line & Git
+site_name: Zen Tech KB
+
 nav:
     - Home: index.md
     - Git Commands: git.md
