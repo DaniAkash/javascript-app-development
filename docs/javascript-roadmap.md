@@ -1,6 +1,6 @@
 # Javascript Roadmap
 
-The following path consists of a list of topics that will help you learn the Javascript language which will help you throughout the rest of the roadmaps
+Javascript is the language of the web which is now being adopted across all the major platforms. The following path consists of a list of topics that will help you learn the Javascript language which will help you throughout the rest of the roadmaps
 
 - Browsers
 - Javascript language basics

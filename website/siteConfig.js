@@ -11,17 +11,17 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'User1',
+    caption: 'DaniAkash',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
-    infoLink: 'https://www.facebook.com',
+    image: 'https://avatars1.githubusercontent.com/u/6841445?s=460&v=4',
+    infoLink: 'https://twitter.com/dani_akash_',
     pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: 'Javascript Application Development', // Title for your website.
+  title: 'JS App Development', // Title for your website.
   tagline: 'This site is a collection of resources that will help you build full stack applications with modern javascript',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -39,9 +39,8 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
+    {doc: 'doc4', label: 'Community'}
   ],
 
   // If you have users set above, you add it here:
