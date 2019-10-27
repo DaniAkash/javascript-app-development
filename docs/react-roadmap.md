@@ -1,5 +1,8 @@
-# React Roadmap
-
+---
+id: react-roadmap
+title: React
+sidebar_label: React
+---
 React is a library for building user interfaces across many different platforms. The following path consists of list of items that wil help you understand this library and build some amazing user experiences.
 
 - Functional Programming

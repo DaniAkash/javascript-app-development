@@ -65,9 +65,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl("doc1.html")}>Example Link</Button>
-            <Button href={docUrl("doc2.html")}>Example Link 2</Button>
+            <Button href={docUrl("docs-home")}>Getting Started</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -78,7 +76,10 @@ class HomeSplash extends React.Component {
 class Index extends React.Component {
   render() {
     const { config: siteConfig, language = "" } = this.props;
-    const { baseUrl } = siteConfig;
+    const { baseUrl, docsUrl } = siteConfig;
+    const docsPart = `${docsUrl ? `${docsUrl}/` : ""}`;
+    const langPart = `${language ? `${language}/` : ""}`;
+    const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
 
     const Block = props => (
       <Container
@@ -155,12 +156,14 @@ class Index extends React.Component {
             content:
               "Learn how to build large scalable network applications using the Node.js platform that lets you run javascript on the serverside",
             image: `${baseUrl}img/nodejs.svg`,
+            imageLink: docUrl("node-roadmap"),
             imageAlign: "top",
             title: "node.js"
           },
           {
             content: "Learn how to build engaging user interfaces with React",
             image: `${baseUrl}img/react.svg`,
+            imageLink: docUrl("react-roadmap"),
             imageAlign: "top",
             title: "React.js"
           },
@@ -168,6 +171,7 @@ class Index extends React.Component {
             content:
               "Learn how to store and manipulate huge amounts of data using various database management systems",
             image: `${baseUrl}img/database.svg`,
+            imageLink: docUrl("table-db-roadmap"),
             imageAlign: "top",
             title: "Database Management"
           }

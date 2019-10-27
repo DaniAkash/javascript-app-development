@@ -1,4 +1,8 @@
-# Frontend Development Roadmap
+---
+id: fe-roadmap
+title: Frontend Development
+sidebar_label: Frontend Development
+---
 
 Frontend development is the process of building user interfaces and experiences on the client side so that the users can interact with them directly
 
@@ -6,7 +10,7 @@ The following topics will help you become a frontend developer
 
 - HTML
 - CSS
-- Javascript Basics
+- [Javascript Basics](javascript-roadmap.md)
 - Package managers
   - npm
   - yarn
@@ -19,7 +23,7 @@ The following topics will help you become a frontend developer
   - Task Runners
     - npm scripts
   - Frameworks
-    - React
+    - [React](react-roadmap.md)
       - Redux
   - Static Site Generators
     - Gatsby
