@@ -30,7 +30,7 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'js-app-dev',
+  projectName: 'javascript-app-development',
   organizationName: 'DaniAkash',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -47,14 +47,14 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/javascript.svg',
+  footerIcon: 'img/javascript.svg',
+  favicon: 'img/javascript.svg',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#212121',
-    secondaryColor: '#424242',
+    primaryColor: '#323330',
+    secondaryColor: '#f0db4f',
   },
 
   /* Custom fonts for website */
@@ -103,7 +103,11 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/daniakash/javascript-app-development',
+
+  // Social links
+  twitterUsername: "dani_akash_",
+  githubUsername: "DaniAkash"
 };
 
 module.exports = siteConfig;
