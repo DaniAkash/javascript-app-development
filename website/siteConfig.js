@@ -23,8 +23,8 @@ const users = [
 const siteConfig = {
   title: 'JS App Development', // Title for your website.
   tagline: 'This site is a collection of resources that will help you build full stack applications with modern javascript',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  url: 'https://daniakash.github.io', // Your website URL
+  baseUrl: '/javascript-app-development/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
