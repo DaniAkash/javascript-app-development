@@ -8,6 +8,8 @@ Node.js® is a JavaScript runtime built on [Chrome's V8 JavaScript engine](https
 
 The following topics will help you become a node.js developer.
 
+- Node runtime
+  - [Node Version Management](references/n-version-manager.md)
 - Node server
 - Setting up live reloading
 - The Event-Driven Architecture
