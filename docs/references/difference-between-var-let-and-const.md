@@ -61,8 +61,6 @@ Keyword const is used to hold a `constant value` that can never be changed. Simi
 
 const cannot be redeclared or reassigned to a new value. This is beacuse const creates a read-only reference to a value. It doesn't mean that the value is immutable. `Primitive values` (string, number, boolean, null, undefined) are `immutable` while the `non-primitive values` (object, array, function) are `mutable`.
 
-Non
-
 ```
 const favLang = "JS"
 const favLang = "python" // Uncaught SyntaxError
