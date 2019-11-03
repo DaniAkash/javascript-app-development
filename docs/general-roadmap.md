@@ -17,6 +17,7 @@ The following topics are necessary regardless of whatever language you choose fo
     - YAGNI
   - Understanding different licenses
   - [Semantic Versioning](./references/semantic-versioning.md)
+  - [Differences Between Var, Let and Const](./references/difference-between-var-let-and-const.md)
   - SSH
   - HTTP/HTTPS and APIs
   - Design Patterns
