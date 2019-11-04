@@ -1,7 +1,7 @@
 ---
-id: difference-between-var-let-and-const
+id: var-let-and-const
 title: Difference Between Var, Let and Const
-sidebar_label: Difference Between Var, Let and Const
+sidebar_label: Var, Let and Const
 ---
 
 Most of the beginners often get confused with the three keywords var, let and const as they are specific to Javascript. So, let's have a clear understanding of it.
@@ -12,7 +12,7 @@ This can have two types of scopes for a variable called `Global scope` and `Func
 
 These var keywords are processed by the Javascript compiler before the code gets executed. Hence they are positioned at the top of its scope which is called `Hoisting`.
 
-Using the var keyword, it is optional to initialize the variable with a value. Redeclaring the same variable is posobjectsible as it overrides the previous one.
+Using the var keyword, it is optional to initialize the variable with a value. Redeclaring the same variable is possible as it overrides the previous one.
 
 
 ```
