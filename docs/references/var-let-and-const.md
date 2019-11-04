@@ -1,7 +1,7 @@
 ---
-id: difference-between-var-let-and-const
+id: var-let-and-const
 title: Difference Between Var, Let and Const
-sidebar_label: Difference Between Var, Let and Const
+sidebar_label: Var, Let and Const
 ---
 
 Most of the beginners often get confused with the three keywords var, let and const as they are specific to Javascript. So, let's have a clear understanding of it.
@@ -60,8 +60,6 @@ console.log(x) // 10
 Keyword const is used to hold a `constant value` that can never be changed. Similar to let, const also has a `block-scope`.
 
 const cannot be redeclared or reassigned to a new value. This is beacuse const creates a read-only reference to a value. It doesn't mean that the value is immutable. `Primitive values` (string, number, boolean, null, undefined) are `immutable` while the `non-primitive values` (object, array, function) are `mutable`.
-
-Non
 
 ```
 const favLang = "JS"

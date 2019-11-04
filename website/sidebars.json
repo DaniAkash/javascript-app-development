@@ -16,7 +16,7 @@
       "references/n-version-manager",
       "references/terminal-basics",
       "references/semantic-versioning",
-      "references/difference-between-var-let-and-const"
+      "references/var-let-and-const"
     ]
   }
 }
