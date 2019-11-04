@@ -12,7 +12,7 @@ This can have two types of scopes for a variable called `Global scope` and `Func
 
 These var keywords are processed by the Javascript compiler before the code gets executed. Hence they are positioned at the top of its scope which is called `Hoisting`.
 
-Using the var keyword, it is optional to initialize the variable with a value. Redeclaring the same variable is posobjectsible as it overrides the previous one.
+Using the var keyword, it is optional to initialize the variable with a value. Redeclaring the same variable is possible as it overrides the previous one.
 
 
 ```
