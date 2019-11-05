@@ -35,7 +35,7 @@ So as of now we have seen the concept of variable hositing with some basic examp
 ------------
 
 
-Let us seen some real time situation where this  actually matters
+Let us see some real time situation where this  actually matters
 ```javascript
 var DEFAULT_SCORE = 100;
 var score = 200;
