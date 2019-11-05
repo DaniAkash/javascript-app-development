@@ -15,7 +15,7 @@ Javascript is the language of the web which is now being adopted across all the 
   - Functions
   - Strings
   - Error Object
-  - Hoisting
+  - [Hoisting](./references/variable_hoisting.md)
   - closures
   - prototypes
   - strict
