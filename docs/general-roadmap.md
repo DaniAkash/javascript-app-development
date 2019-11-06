@@ -9,14 +9,14 @@ The following topics are necessary regardless of whatever language you choose fo
   - Version Control tools
     - git
     - github
-  - Terminal Basics
+  - [Terminal Basics](./references/terminal-basics.md)
   - Data Structures & Algorithms
   - Software Development principles
     - SOLID
     - KISS
     - YAGNI
   - Understanding different licenses
-  - Semantic Versioning
+  - [Semantic Versioning](./references/semantic-versioning.md)
   - SSH
   - HTTP/HTTPS and APIs
   - Design Patterns

@@ -13,7 +13,9 @@
       "react-roadmap"
     ],
     "References": [
-
+      "references/n-version-manager",
+      "references/terminal-basics",
+      "references/semantic-versioning"
     ]
   }
 }
