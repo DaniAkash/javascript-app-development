@@ -38,3 +38,5 @@ The data structures can also be classified on the basis of the following charact
 | Non-Homogeneous	 | In Non-Homogeneous data structure, the elements may or may not be of the same type. Example: **Structures** |
 | Static | Static data structures are those whose sizes and structures associated memory locations are fixed, at compile time. Example: **Array** |
 | Dynamic | Dynamic structures are those which expands or shrinks depending upon the program need and its execution. Also, their associated memory locations changes. Example: **Linked List created using pointers** |
+
+
