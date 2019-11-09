@@ -1,0 +1,22 @@
+{
+  "docs": {
+    "Roadmaps": [
+      "docs-home",
+      "general-roadmap",
+      "be-roadmap",
+      "node-roadmap",
+      "express-roadmap",
+      "table-db-roadmap",
+      "document-db-roadmap",
+      "fe-roadmap",
+      "javascript-roadmap",
+      "react-roadmap"
+    ],
+    "References": [
+      "references/n-version-manager",
+      "references/terminal-basics",
+      "references/semantic-versioning",
+      "references/IntelliSense",
+    ]
+  }
+}
