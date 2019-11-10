@@ -16,7 +16,8 @@
       "references/n-version-manager",
       "references/terminal-basics",
       "references/semantic-versioning",
-      "references/var-let-and-const"
+      "references/var-let-and-const",
+      "references/arrays"
     ]
   }
 }

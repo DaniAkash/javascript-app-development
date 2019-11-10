@@ -11,7 +11,7 @@ Javascript is the language of the web which is now being adopted across all the 
   - [let, var & const](./references/var-let-and-const.md)
   - JSON
   - Objects
-  - Arrays
+  - [Arrays](./references/arrays.md)
   - Functions
   - Strings
   - Error Object
