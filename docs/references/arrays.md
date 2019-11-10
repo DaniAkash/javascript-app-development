@@ -17,16 +17,50 @@ let shirtSize = new Array(34,36,38,40,42,44,46)
 ```
 ### Array Methods
 ### push()
+This method will mutate the array. It inserts an element at the end of the array and returns the length of the array
+```
+shirtSize.push(48) // 8 (length of the array)
+console.log(shirtSize) // [34,36,38,40,42,44,46,48]
+```
 ### pop()
+This method removes the last element from the array and returns that element
+```
+shirtSize.pop() // 48
+console.log(shirtSize) // [34,36,38,40,42,44,46]
+```
 ### shift()
+This method removes the first element of the array and returns the removed element
+```
+shirtSize.shift() // 34
+console.log(shirtSize) // [36,38,40,42,44,46]
+```
 ### unshift()
+This method will add the elements at the beginning of the array and returns the length of the new array.
+
+Note: You can pass in as many elements as you like to the function.
+```
+shirtSize.unshift(32,34) // 8
+console.log(shirtSize) // [32,34,36,38,40,42,44,46]
+```
 ### reverse()
+This method is used for reversing the elements of an array in place.
+```
+shirtSize.reverse()
+console.log(shirtSize) // [46,44,42,40,38,36,34,32]
+```
 ### find()
 It is used to create a new object based on the condition you set. On the surface, it looks like filter() but they’re not the same. filter() returns an array of matched objects while find() will return the first matched object.
 ```
-
+let foodItems = [
+    { name: "Apple",type:"veg"},
+    { name: "Banana",type:"veg"},
+    { name: "Chicken Fry",type:"nonveg"}
+]
+let vegFood = foodItems.find(foodItem => foodItem.type==="veg")
+console.log(vegFood) // {name:"Apple",type:"veg"}
 ```
 ### every()
+
 ### concat()
 ### slice()
 ### splice()
@@ -46,7 +80,7 @@ console.log(filteredMarks) // [85,93,88,95]
 
 | Method | Description |
 | ------ | ----------- |
-| push(...items) | Inserts an element at the end |
+| push(...items) | Inserts an element at the end and returns the length of the array |
 | pop() | Removes an element at the end and returns it |
 | shift() | Removes the first element |
 | unshift(..items) | Inserts an element at the beginning |
