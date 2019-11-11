@@ -1,3 +1,8 @@
+---
+id: npm-commands-for-publishing-package
+title: Publishing Package in npmjs.com
+sidebar_label: Publishing Package in npmjs.com
+---
 # Publishing Package in nmpjs.com
 ```sh
 $ npm init
