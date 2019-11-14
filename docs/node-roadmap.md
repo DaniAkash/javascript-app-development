@@ -23,6 +23,7 @@ The following topics will help you become a node.js developer.
 - The Event-Driven Architecture
 - Setting up a web server
 - Working with the OS
+- [Event Emitter](./references/EventEmitter.md)
 - Building a command line application
 - Deploying Node.js apps
 - Process Managers
