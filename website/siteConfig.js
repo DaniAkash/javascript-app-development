@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'JS App Development', // Title for your website.
   tagline: 'This site is a collection of resources that will help you build full stack applications with modern javascript',
   url: 'https://daniakash.github.io', // Your website URL
-  baseUrl: '/javascript-app-development/', // Base URL for your project */
+  baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -93,7 +93,7 @@ const siteConfig = {
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
-  // docsSideNavCollapsible: true,
+  docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,

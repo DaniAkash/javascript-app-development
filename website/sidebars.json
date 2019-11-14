@@ -16,7 +16,10 @@
       "references/n-version-manager",
       "references/terminal-basics",
       "references/semantic-versioning",
-      "references/data-Structures-&-algorithms"
+      "references/data-Structures-&-algorithms",
+      "references/var-let-and-const",
+      "references/arrays"
     ]
   }
 }
+
